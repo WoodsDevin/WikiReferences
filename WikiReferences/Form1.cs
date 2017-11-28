@@ -24,6 +24,10 @@ namespace WikiReferences
 
             // Get entered URL
             string url = txtURL.Text;
+            if(url == null)
+            {
+                MessageBox.Show("Please enter a wikepedia address!");
+            }
 
             // Create a new HtmlWeb Object and load a webpage from that object.
             HtmlWeb web = new HtmlWeb();
