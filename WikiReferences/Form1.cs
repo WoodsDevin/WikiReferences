@@ -51,6 +51,7 @@ namespace WikiReferences
              */
             // However, you can shorthand this by using the * operator, which does most of the finding for you,
             // and you can select explicitly where to begin parsing.
+
             string path =
                 @"
                 *
